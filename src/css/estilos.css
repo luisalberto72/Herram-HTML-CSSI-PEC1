@@ -580,7 +580,7 @@ iframe.video-fluid {
 /*
 Las reglas que van a continuación consiguen que los contenidos dentro del elemento de class .container-presentacion se adapten a los diversos dispositivos.
 La class .container-presentacion define un contenedor que ocupar el 100% de la pantalla del dispositivo, con un margen interior por la izquierda y por la derecha de 15 píxeles, y márgenes por la izquierda y por la derecha automáticos, para conseguir un diseño centrado.
-A continuació utilizamos media queries, un módulo de CSS3 que permite adaptar la representación del contenido a las características del dispositivo y que se estudia en la unidad 5.
+A continuació utilizamos media queries, un módulo de CSS3 que permite adaptar la representación del contenido a las características del dispositivo.
 Con las 4 media queries utilizadas indicamos la anchura máxima que el .container-presentacion tiene que tener cuando los dispositivos tengan la anchura mínima indicada por el punto de ruptura (breakpoint).
 */
 
@@ -589,27 +589,6 @@ h1.presentacion {
     letter-spacing: -1px;
     text-align: center;
     font-weight: 900;
-}
-
-h2.presentacion {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    text-align: center;
-}
-
-
-abbr {
-    text-decoration: none;
-}
-
-.second-paragraph {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.third-paragraph {
-    margin-top: 40px;
-  
 }
 
 .image-container {
